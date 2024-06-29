@@ -13,7 +13,7 @@ namespace Examen_U1_POO_CarlosPineda.Database.Entities
 
         [Display(Name = "Cantidad")]
         [Required(ErrorMessage = "La cantidad del producto es requerida.")]
-        public double Cantidad { get; set; }
+        public int Cantidad { get; set; }
 
         [Display(Name = "Precio")]
         [Required(ErrorMessage = "El precio del producto es requerido.")]

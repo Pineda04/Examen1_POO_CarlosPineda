@@ -10,7 +10,7 @@ namespace Examen_U1_POO_CarlosPineda.Dtos.Productos
 
         [Display(Name = "Cantidad")]
         [Required(ErrorMessage = "La {0} del producto es requerida.")]
-        public double Cantidad { get; set; }
+        public int Cantidad { get; set; }
 
         [Display(Name = "Precio")]
         [Required(ErrorMessage = "El {0} del producto es requerido.")]

@@ -1,0 +1,19 @@
+meta {
+  name: Edit Products
+  type: http
+  seq: 4
+}
+
+put {
+  url: {{PATHE}}/productos/1b75f027-c5bf-4f86-8d65-59cf0f969e77
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Name": "Desinfectante",
+    "Cantidad": 1,
+    "Precio": 80
+  }
+}

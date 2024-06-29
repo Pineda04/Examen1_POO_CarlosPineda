@@ -6,7 +6,7 @@
 
         public string Name { get; set; } 
 
-        public double Cantidad { get; set; }
+        public int Cantidad { get; set; }
 
         public double Precio { get; set; }  
     }

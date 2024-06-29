@@ -1,0 +1,19 @@
+meta {
+  name: Create Products
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{PATHE}}/productos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "Name": "Desinfectante",
+    "Cantidad": "1",
+    "Precio": "80"
+  }
+}

@@ -19,6 +19,7 @@ namespace Examen_U1_POO_CarlosPineda
             services.AddSwaggerGen();
 
             services.AddTransient<ICategoriasService, CategoriasService >(); 
+            services.AddTransient<IProductosService,  ProductosService >(); 
         }
 
         public void configure(IApplicationBuilder app, IWebHostEnvironment env)

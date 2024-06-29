@@ -1,10 +1,14 @@
 [
   {
-    "Id": "b40e8bad-a65c-4f12-9bb7-d29e7ece4696",
-    "Name": "JavaSctipt"
+    "Id": "b40e8bad-a65c-4f12-9bb7-d29e7ece5696",
+    "Name": "Mouse logitec",
+    "Cantidad": 2,
+    "Precio": 680.0
   },
   {
-    "Id": "d5f3786f-febf-4979-b663-16012ebe9579",
-    "Name": "IA"
+    "Id": "777ad2c4-5ba3-47d4-8dd5-980bafe4231c",
+    "Name": "Desinfectante",
+    "Cantidad": 1,
+    "Precio": 80.0
   }
 ]

@@ -1,11 +1,17 @@
 meta {
-  name: GetCategoriesById
+  name: Edit Categories
   type: http
-  seq: 1
+  seq: 4
 }
 
-get {
+put {
   url: {{PATHE}}/categorias/110709f2-d363-499d-862c-5f28ea874e3c
-  body: none
+  body: json
   auth: none
+}
+
+body:json {
+  {
+    "Name": "Limpieza"
+  }
 }
